@@ -8,9 +8,9 @@ namespace VTM_Client_AIF22
 {
     internal static class Program
     {
-        private static IModel Model;
-        private static IView View;
-        private static IController Controller;
+        private static Imodel Model;
+        private static Iview View;
+        private static Icontroller Controller;
 
         /// <summary>
         /// Der Haupteinstiegspunkt für die Anwendung.
@@ -21,7 +21,7 @@ namespace VTM_Client_AIF22
 
         Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new View());
         }
     }
 }
